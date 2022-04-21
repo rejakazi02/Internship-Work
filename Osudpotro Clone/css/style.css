@@ -1,0 +1,243 @@
+html, body{
+
+    
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f7fb;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+ 
+
+
+
+ 
+
+  .logoNav{ 
+
+    display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+
+   background-color: #f3f7fb;
+
+   
+  }
+
+
+  .nav-title{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+  }
+
+  .search{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .SearchIcon {
+    margin-left: 26px;
+    position: absolute;
+    margin-top: -8px;
+}
+  .inputFiled {
+    
+    padding: 10px 10px 10px 50px;
+    background-color: #fff;
+    border-radius: 40px;
+    width: 450px;
+    outline-width: 0;
+    font-size: 14px;
+    border: 1px solid #efefef;
+    line-height: 1.6;
+    
+}
+
+
+.logoSection{ 
+
+display: flex;
+align-items: center;
+/* justify-content: end !important; */
+
+   
+}
+
+.Icon-inlinging {
+
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 2px;
+
+}
+
+.text-icon{
+
+    padding-left: 9px;
+    margin-right:  10px;
+}
+
+.hr-bar {
+margin-left: 50px;
+   border-left: 3px solid gray; 
+   padding-left: 30px;
+}
+
+  
+  .nav {
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(#45bdaa,transparent);
+    background-color: #005e6a;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-header {
+    display: inline;
+    margin-top: 20px;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+
+    float: right;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: left;
+    font-size: 13px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+
+  .dropbtn {
+    /* background-color: #04AA6D; */
+
+    background: linear-gradient(#45bdaa,transparent);
+    background-color: #005e6a; 
+    color: #efefef;
+    padding: 16px;
+    font-size: 13px;
+    border: none;
+  }
+
+
+
+
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: linear-gradient(#45bdaa,transparent);
+    background-color: #005e6a;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0); */
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgba(0, 0, 0, 0.3);}
+  
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+
+   
+
+
+    .dropbtn {
+        background-color: #333!important;
+    }
+  }
