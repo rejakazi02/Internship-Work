@@ -527,6 +527,118 @@ img {
 /* Prescription-Header :start */
 
 
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 6px;
+  grid-row-gap: 5px;
+  margin: 60px;
+  }
+
+
+  .ph-card{
+    background-color: white;
+    margin: 5px;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.discount{
+  background-color: red;
+    border-radius: 50%;
+    width: 19%;
+    height: 10%;
+    text-align: center;
+    top: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.details{
+
+
+  margin-left: 5px;
+}
+
+.regular-price {
+  text-decoration: line-through;
+  color: darkorange;
+}
+
+
+.price{
+
+  font-size: 21px!important;
+    color: #eb1e2d;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.med-cetagoris{
+
+margin-top: -18px;
+    position: absolute;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #04AA6D;
+  color: white;
+  margin-left: 20px;
+    position: absolute;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+  float: right;
+  /* margin-right: 20px; */
+    /* position: absolute; */
+  
+}
+
+.round {
+  border-radius: 50%;
+
+  width: 3%;
+  /* height: 263%; */
+  text-align: center;
+} 
+    .P-N-BTN{
+
+      display: flex;
+      align-items: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -709,7 +821,31 @@ img {
   }
 
   /* Prescription Medicines */
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+    margin: 8px;
+    }
+    .ph-card{
+      background-color: white;
+      margin: 5px;
+      box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+  }
+  .discount{
+    background-color: red;
+      border-radius: 50%;
+      width: 22%;
+      height: 11%;
+      text-align: center;
+      top: 5px;
+      padding: 3px;
+      margin: 10px;
+  }
 
- 
+  
 
 }
