@@ -624,12 +624,46 @@ a:hover {
     }
 
 
+/*-----------------------------*----- p h Banner css ---------------------------- */
 
+    .P-h-text-btn {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      margin: 0 96px 0 128px;
+      position: absolute;
+    margin-top: -138px;
+  }
 
+  .img-div {
+    margin: 0 40px;
+    
+}
+  .view-btn-div {
+    display: flex;
+    align-items: center;
+}
 
+.view-btn {
+  background-color: #259a94;
+  font-size: 16px;
+  border-radius: 30px;
+  font-weight: 400;
+  border: none;
+  height: 40px;
+  padding: 10px 25px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
 
-
-
+.product-text {
+  padding-right: 5px;
+  font-weight: 700;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #202020!important;
+  font-size: 16px;
+}
 
 
 
@@ -898,5 +932,76 @@ a:hover {
         align-items: center;
       }
   
+
+.Prescription-Header{
+  text-align: start;
+}
+
+
+      /*------------------------ p h banner css ------------------- */
+
+      /* .p-h-banner-img {
+        display: none;
+    } */
+
+
+    /* .product-text-div {
+      display: none;
+  } */
+
+  .view-btn-div {
+    display: inline-block;
+    align-items: center;
+    order: 1;
+    margin-left: 115px;
+    margin-top: -231px;
+}
+
+.view-btn {
+  background-color: #f3f7fb;
+  font-size: 16px;
+  border-radius: 30px;
+  font-weight: 400;
+  border: none;
+  height: 40px;
+  padding: 10px 25px;
+  position: relative;
+  color: black;
+  text-align: center;
+  
+}
+
+
+
+
+.P-h-text-btn {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 10px 0 1px;
+  position: absolute;
+margin-top: -138px;
+
+}
+
+.img-div {
+margin: 0 40px;
+display: none ;
+
+}
+
+.product-text-div{
+  /* display: none; */
+}
+
+
+.product-text {
+padding-right: 5px;
+font-weight: 700;
+line-height: 1.6;
+font-size: 16px;
+color: #202020!important;
+font-size: 16px;
+display: none;
+}
 
 }
