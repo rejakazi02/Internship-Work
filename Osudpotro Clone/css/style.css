@@ -437,7 +437,12 @@ img {
 
 .section-head-text{
 
-  font-weight: bolder;
+ 
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
   
 }
 .section {
@@ -517,6 +522,11 @@ img {
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
+
+
+/* Prescription-Header :start */
+
+
 
 
 
@@ -698,5 +708,8 @@ img {
   
   }
 
+  /* Prescription Medicines */
+
+ 
 
 }
