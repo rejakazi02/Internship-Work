@@ -684,8 +684,13 @@ a:hover {
   justify-content: end;
 }
 
+.mens-product {
+  justify-content: end;
+}
 
-
+.Women-view-btn {
+  justify-content: end;
+}
 
 
 
@@ -895,13 +900,14 @@ a:hover {
   }
   .discount{
     background-color: red;
-      border-radius: 50%;
-      width: 32%;
-      height: 11%;
-      text-align: center;
-      top: 5px;
-      padding: 3px;
-      margin: 10px;
+    border-radius: 50%;
+    width: 31%;
+    height: 7%;
+    text-align: center;
+    top: 5px;
+    padding: 6px;
+    margin: 6px;
+    font-size: 12px;
   }
 
 
@@ -987,7 +993,7 @@ a:hover {
   font-weight: 400;
   border: none;
   height: 40px;
-  padding: 10px 25px;
+  /* padding: 10px 25px; */
   position: relative;
   color: black;
   text-align: center;
@@ -1058,7 +1064,11 @@ display: none;
 }
 
 
+.Women-view-btn{
 
+  margin-top: -371px;
+    margin-right: -25px !important;
+}
 
 
 
