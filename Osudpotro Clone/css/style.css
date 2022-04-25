@@ -721,6 +721,142 @@ a:hover {
   flex-wrap: wrap;
 }
 
+/* <!-- About osudpotro section start --> */
+
+.About-osudpotro-main-div{
+
+  margin: 0 30px 0 30px;
+}
+
+
+.text-center{
+
+  text-align: center!important;
+}
+
+.cdhgLj {
+  /* margin: 15px 0px 20px; */
+  border-width: 1px 1px 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  /* border-left-style: solid; */
+  /* border-top-color: rgb(170, 170, 170); */
+  /* border-right-color: rgb(170, 170, 170); */
+  /* border-left-color: rgb(170, 170, 170); */
+  /* border-image: initial; */
+  /* border-bottom-style: initial; */
+  /* border-bottom-color: initial; */
+  display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: -12px;
+    /* margin-bottom: 29rem; */
+    font-size: 14px;
+    line-height: 20px;
+  
+}
+
+.cdhgLj .column:not(:last-child) {
+  border-right: 1px solid rgb(170, 170, 170);
+}
+
+.cdhgLj .column {
+  padding: 0px;
+}
+
+.cdhgLj .cell.head {
+  font-weight: 700;
+}
+
+
+.cdhgLj .cell {
+  padding: 5px;
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.cdhgLj .cell {
+  padding: 5px;
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+
+
+.col-md-3{
+
+  
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.footer-list{
+
+  margin-top: -12px;
+    /* margin-bottom: 29rem; */
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.bullet-point{
+
+  font-size: 14px;
+    line-height: 20px;
+    /* /* font-weight: 600; */
+}
+
+.bullet-point-details{
+
+
+  font-size: 13px;
+  line-height: 21px;
+  margin-bottom: 15px;
+  color: rgba(11,18,25,.75);
+  margin-top: -11px;
+}
+
+
+
+
+.ghsdgf {
+  object-fit: cover;
+  z-index: 1;
+}
+
+.logo-div{
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 600px) {
   .logoNav {
     display: none;
@@ -1152,4 +1288,106 @@ a:hover {
   .going-for-app-store-img {
     width: 104px;
   }
+
+
+
+
+/* <!-- About osudpotro section start --> */
+  .About-osudpotro-main-div{
+
+    margin: 0 30px 0 30px;
+  }
+  
+  
+  .text-center{
+  
+    text-align: center!important;
+  }
+  
+  .cdhgLj {
+    /* margin: 15px 0px 20px; */
+    border-width: 1px 1px 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    /* border-left-style: solid; */
+    /* border-top-color: rgb(170, 170, 170); */
+    /* border-right-color: rgb(170, 170, 170); */
+    /* border-left-color: rgb(170, 170, 170); */
+    /* border-image: initial; */
+    /* border-bottom-style: initial; */
+    /* border-bottom-color: initial; */
+    display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-top: -12px;
+      /* margin-bottom: 29rem; */
+      font-size: 14px;
+      line-height: 20px;
+      flex-direction: column;
+    
+  }
+  
+  .cdhgLj .column:not(:last-child) {
+    border-right: 1px solid rgb(170, 170, 170);
+  }
+  
+  .cdhgLj .column {
+    padding: 0px;
+  }
+  
+  .cdhgLj .cell.head {
+    font-weight: 700;
+  }
+  
+  
+  .cdhgLj .cell {
+    padding: 5px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+  }
+  
+  .cdhgLj .cell {
+    padding: 5px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+  }
+  
+  
+  
+  .col-md-3{
+  
+    
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 25%;
+    max-width: 100%;
+  }
+  
+  .footer-list{
+  
+    margin-top: -12px;
+      /* margin-bottom: 29rem; */
+      font-size: 14px;
+      line-height: 20px;
+  }
+  
+  
+  .bullet-point{
+  
+    font-size: 14px;
+      line-height: 20px;
+      /* /* font-weight: 600; */
+  }
+  
+  .bullet-point-details{
+  
+  
+    font-size: 13px;
+    line-height: 21px;
+    margin-bottom: 15px;
+    color: rgba(11,18,25,.75);
+    margin-top: -11px;
+  }
+  
 }
