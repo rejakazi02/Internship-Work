@@ -668,6 +668,24 @@ a:hover {
 
 
 
+.aling-div{
+
+
+  display: grid;
+    grid-template-columns: 2fr 1fr !important;
+    margin: 0 96px 0 128px;
+    position: absolute;
+    margin-top: -138px;
+}
+
+.KIDS-view-btn{
+
+
+  justify-content: end;
+}
+
+
+
 
 
 
@@ -836,7 +854,12 @@ a:hover {
 
   /* Shop By Category  */
 
-  
+  .section-head-text {
+   
+    text-align: start;
+    font-size: 24px;
+    font-weight: 500;
+}
   .col { 
      margin: 2% 1% 2% 1%; 
      box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
@@ -968,6 +991,7 @@ a:hover {
   position: relative;
   color: black;
   text-align: center;
+  width: 141px;
   
 }
 
@@ -1003,5 +1027,44 @@ color: #202020!important;
 font-size: 16px;
 display: none;
 }
+
+.otc-view-btn{
+
+  margin-left: 207px !important;
+  margin-top: -145px !important;
+}
+.diabetes-view-btn{
+
+  margin-left: 110px !important;
+  margin-top: -311px !important;
+  
+}
+
+.view-btn-div.KIDS-view-btn {
+  margin-top: -354px;
+}
+
+
+.mens-product{
+
+  margin-top: -298px
+}
+
+
+.Rehabilitation{
+
+  margin-left: 110px !important;
+    margin-top: -366px !important;
+}
+
+
+
+
+
+
+
+
+
+
 
 }
