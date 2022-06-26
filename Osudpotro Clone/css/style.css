@@ -723,15 +723,15 @@ a:hover {
 
 /* <!-- About osudpotro section start --> */
 
-.About-osudpotro-main-div{
+.About-osudpotro-main-div {
 
   margin: 0 30px 0 30px;
 }
 
 
-.text-center{
+.text-center {
 
-  text-align: center!important;
+  text-align: center !important;
 }
 
 .cdhgLj {
@@ -748,13 +748,13 @@ a:hover {
   /* border-bottom-style: initial; */
   /* border-bottom-color: initial; */
   display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-top: -12px;
-    /* margin-bottom: 29rem; */
-    font-size: 14px;
-    line-height: 20px;
-  
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: -12px;
+  /* margin-bottom: 29rem; */
+  font-size: 14px;
+  line-height: 20px;
+
 }
 
 .cdhgLj .column:not(:last-child) {
@@ -782,9 +782,9 @@ a:hover {
 
 
 
-.col-md-3{
+.col-md-3 {
 
-  
+
   position: relative;
   width: 100%;
   padding-right: 15px;
@@ -793,61 +793,168 @@ a:hover {
   max-width: 25%;
 }
 
-.footer-list{
+.footer-list {
 
   margin-top: -12px;
-    /* margin-bottom: 29rem; */
-    font-size: 14px;
-    line-height: 20px;
+  /* margin-bottom: 29rem; */
+  font-size: 14px;
+  line-height: 20px;
 }
 
 
-.bullet-point{
+.bullet-point {
 
   font-size: 14px;
-    line-height: 20px;
-    /* /* font-weight: 600; */
+  line-height: 20px;
+  /* /* font-weight: 600; */
 }
 
-.bullet-point-details{
+.bullet-point-details {
 
 
   font-size: 13px;
   line-height: 21px;
   margin-bottom: 15px;
-  color: rgba(11,18,25,.75);
+  color: rgba(11, 18, 25, .75);
   margin-top: -11px;
 }
 
 
 
 
-.ghsdgf {
-  object-fit: cover;
-  z-index: 1;
+
+
+
+
+
+.footer-main-div {
+
+  background-image: url("../img/green-bg.webp");
+  height: auto;
+
+
+
 }
 
-.logo-div{
+.logo-div {
 
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
 
+.fotter-logo-div {
 
 
 
+  margin-top: 148px;
+  margin-left: 30px;
+}
+
+.foot-con {
+  background-color: white;
+  height: 2px;
+  width: 99%;
+  background: linear-gradient(45deg, transparent, #ffff, transparent);
+  display: flex;
+  /* align-items: start; */
+  /* justify-content: left; */
+  margin-left: -2px;
+  margin-top: 188px;
+
+}
 
 
 
+.footer_menu {
 
 
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  margin: 0 30px;
+  margin-top: 40px;
+
+}
 
 
+.bullet-points {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  padding-bottom: 8px;
+}
+
+.bullet-points-details {
+
+  color: rgba(255, 255, 255, .9);
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
 
 
+.our_div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+
+.bullet-pointss {
+
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 0;
+  padding-bottom: 8px;
+
+}
+
+.footer-links {
+  color: rgba(255, 255, 255, .9);
+  display: block;
+  line-height: 44px;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 0;
+  background: transparent;
+}
+
+.footer-links:hover {
+  background: none;
+  color: white;
+  text-decoration: underline;
+
+}
+
+.our_blog {
+  line-height: 22px !important;
+}
 
 
+.imggggg-div{
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.imggg_cl{
+
+  width: 50%;
+    position: absolute;
+    margin-top: 87px;
+}
+
+.Copyright {
+
+
+  color: white;
+  padding-bottom: 89px;
+  margin-left: 30px;
+  text-align: center;
+}
 
 
 
@@ -1292,18 +1399,18 @@ a:hover {
 
 
 
-/* <!-- About osudpotro section start --> */
-  .About-osudpotro-main-div{
+  /* <!-- About osudpotro section start --> */
+  .About-osudpotro-main-div {
 
     margin: 0 30px 0 30px;
   }
-  
-  
-  .text-center{
-  
-    text-align: center!important;
+
+
+  .text-center {
+
+    text-align: center !important;
   }
-  
+
   .cdhgLj {
     /* margin: 15px 0px 20px; */
     border-width: 1px 1px 0px;
@@ -1318,44 +1425,44 @@ a:hover {
     /* border-bottom-style: initial; */
     /* border-bottom-color: initial; */
     display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      margin-top: -12px;
-      /* margin-bottom: 29rem; */
-      font-size: 14px;
-      line-height: 20px;
-      flex-direction: column;
-    
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: -12px;
+    /* margin-bottom: 29rem; */
+    font-size: 14px;
+    line-height: 20px;
+    flex-direction: column;
+
   }
-  
+
   .cdhgLj .column:not(:last-child) {
     border-right: 1px solid rgb(170, 170, 170);
   }
-  
+
   .cdhgLj .column {
     padding: 0px;
   }
-  
+
   .cdhgLj .cell.head {
     font-weight: 700;
   }
-  
-  
+
+
   .cdhgLj .cell {
     padding: 5px;
     border-bottom: 1px solid rgb(170, 170, 170);
   }
-  
+
   .cdhgLj .cell {
     padding: 5px;
     border-bottom: 1px solid rgb(170, 170, 170);
   }
-  
-  
-  
-  .col-md-3{
-  
-    
+
+
+
+  .col-md-3 {
+
+
     position: relative;
     width: 100%;
     padding-right: 15px;
@@ -1363,31 +1470,66 @@ a:hover {
     flex: 0 0 25%;
     max-width: 100%;
   }
-  
-  .footer-list{
-  
+
+  .footer-list {
+
     margin-top: -12px;
-      /* margin-bottom: 29rem; */
-      font-size: 14px;
-      line-height: 20px;
-  }
-  
-  
-  .bullet-point{
-  
+    /* margin-bottom: 29rem; */
     font-size: 14px;
-      line-height: 20px;
-      /* /* font-weight: 600; */
+    line-height: 20px;
   }
-  
-  .bullet-point-details{
-  
-  
+
+
+  .bullet-point {
+
+    font-size: 14px;
+    line-height: 20px;
+    /* /* font-weight: 600; */
+  }
+
+  .bullet-point-details {
+
+
     font-size: 13px;
     line-height: 21px;
     margin-bottom: 15px;
-    color: rgba(11,18,25,.75);
+    color: rgba(11, 18, 25, .75);
     margin-top: -11px;
   }
+
+  .footer_menu {
+
+
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 30px;
+    margin-top: 40px;
   
+  }
+  .foot-con {
+    background-color: white;
+    height: 2px;
+    width: 99%;
+    background: linear-gradient(45deg, transparent, #ffff, transparent);
+    display: flex;
+    /* align-items: start; */
+    /* justify-content: left; */
+    margin-left: -2px;
+    margin-top: 570px;
+    position: absolute;
+}
+
+.djfs {
+  position: absolute;
+  margin-left: 62px;
+  margin-top: -58px;
+}
+.imggg_cl{
+
+  width: 50%;
+    position: absolute;
+    margin-top: 1px;
+}
+
+
 }
