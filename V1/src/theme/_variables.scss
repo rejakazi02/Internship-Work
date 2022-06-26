@@ -1,5 +1,6 @@
 /*** font-family ****/
-$font-en-primary:'Rubik',sans-serif;
+// $font-en-primary:'Rubik',sans-serif;
+$font-en-primary:'Alata', sans-serif;
 $font-en-primary1:'Poppins',sans-serif;
 $font-en-primary2:'Roboto',sans-serif;
 $font-en-primary3: 'Open Sans', sans-serif;
@@ -16,7 +17,7 @@ $segoe_ui_bold: 'segoe_ui_bold', sans-serif;
 $shorif-jonota: 'shorif_jonota', sans-serif;
 
 /**** containerr ***/
-$container-max-width:1320px;
+$container-max-width: 1px;
 
 // MAT TOOLBAR, SIDENAV & LIST
 $toolbar-height: 85px;
@@ -32,7 +33,8 @@ $max-tablet-width: 899px;
 // COLOR
 $color-light-gray: #777777;
 $color-primary: #119744;
-$heading-color:#39404a;
+// $heading-color:#39404a;
+$heading-color: #FFFFFF;
 $sub-heading-color:#565765;
 $color-danger:#ff3838;
 $color-border:#e8e8e8;

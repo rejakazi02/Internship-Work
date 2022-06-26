@@ -6,12 +6,12 @@
     height: auto;
     box-sizing: border-box;
     margin-top: 30px;
-    padding: 5px 10px;
+    // padding: 5px 10px;
     margin-bottom: 20px;
 }
 .banner-main{
-    display: grid;
-    grid-template-columns: 25% 75%;
+    // display: grid;
+    // grid-template-columns: 25% 75%;
 }
 
 .category-area{
@@ -19,7 +19,7 @@
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    padding-right: 15px;
+    // padding-right: 15px;
 }
 .banner-category{
     display: block;
@@ -99,7 +99,7 @@
 
 .banner-data{
     display: block;
-    padding-left: 10px;
+    // padding-left: 10px;
     box-sizing: border-box;
 }
 .banner-slide-area{
@@ -108,14 +108,15 @@
 }
 .banner{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    // grid-gap: 20px;
     box-sizing: border-box;
-    padding: 40px 55px;
-    background-color: #fbffc8;
+    // padding: 40px 55px;
+    // background-color: #fbffc8;
     border-radius: 10px;
     position: relative;
     z-index: 10;
+    // height: 550px;
 }
 ::ng-deep.banner-slide-area .swiper-slide:nth-child(2) .banner{
     background-color: #c8e6ff!important;
@@ -128,7 +129,7 @@
     display: block;
     width: 100%;
     height:100%;
-    background-image: url(../../../assets/images/banner/banner-shape.png);
+    // background-image: url(../../../assets/images/products/womenOffer/banner123_4.webp);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -181,7 +182,7 @@
 .banner-data-bottom{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 25px;
+    // grid-gap: 25px;
     grid-template-rows: auto;
 }
 @media(max-width:990px){
@@ -232,7 +233,7 @@
     display: block;
     padding: 60px 10px 80px 10px;
     box-sizing: border-box;
-    background-color:#F5F6F7; 
+    background-color:#F5F6F7;
  }
  .service-main{
      display: grid;
@@ -321,7 +322,7 @@
     margin-top: 20px;
     margin-bottom: 110px;
   }
-  
+
   .section1-top{
       display: block;
       width: 100%;
@@ -391,7 +392,7 @@
     line-height: 40px;
     width: 100%;
   }
-  
+
   .show-time > small {
     font-size:16px;
     font-weight: 500;
@@ -399,7 +400,7 @@
     font-family: $font-en-primary;
     line-height: 20px;
   }
-  
+
   .section1-main{
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -713,7 +714,7 @@
 /*** section-6***/
 .section-6{
    display: block;
-   margin-bottom: 115px; 
+   margin-bottom: 115px;
    padding: 0px 10px;
    box-sizing: border-box;
 }
@@ -732,7 +733,7 @@
 .category-image{
    display: block;
    position: relative;
-   overflow: hidden; 
+   overflow: hidden;
 }
 .category-image img{
     display: block;
@@ -870,7 +871,7 @@
     align-items: center;
     justify-content: center;
     transition: all 0.3s linear;
- 
+
 }
 
 .brand-card:hover .brand-image::after{
@@ -969,7 +970,7 @@
     box-sizing: border-box;
     border-radius: 8px;
     text-align: center;
-   
+
 }
  .client-card > span{
     color: #fff;

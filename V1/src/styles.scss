@@ -13,8 +13,8 @@
     margin: auto;
     background: rgb(14, 13, 13);
   }
-  
-body .slick-prev, 
+
+body .slick-prev,
 body .slick-next {
     height: 45px;
     width: 40px;
@@ -24,4 +24,9 @@ body .slick-next {
 ::selection{
   color: #fff;
   background-color: $color-primary;
+}
+
+body {
+  height: auto !important;
+  font-family: 'Alata', sans-serif;
 }
