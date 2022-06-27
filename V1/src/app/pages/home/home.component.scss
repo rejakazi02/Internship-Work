@@ -1,5 +1,6 @@
 @import'./../../../theme/variables';
 @import'./../../../theme/swipper';
+@import'../../../styles.scss';
 .banner-area{
     display: block;
     width: 100%;
@@ -1457,3 +1458,30 @@
     flex-direction:column;
     justify-content: flex-end;
  }
+
+
+ .textFiled{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+flex-direction: column;
+  position: relative;
+ }
+ .tet{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+flex-direction: column;
+position: absolute;
+margin-top: -183px;
+
+    margin-left: 407px;
+
+ }
+
+ .teth1{
+  font-weight: 700;
+font-family:'Alata', sans-serif;
+ }
+
