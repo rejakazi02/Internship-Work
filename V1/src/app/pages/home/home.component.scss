@@ -738,7 +738,7 @@
 .category-image img{
     display: block;
     border-radius: 8px;
-    max-height: 220px;
+    max-height: 720px;
     object-fit: cover;
 }
 .link{
@@ -763,6 +763,7 @@
     transform: scale(1);
     visibility: visible;
     opacity: 1;
+    display: none;
 }
 .link a{
     display:flex;

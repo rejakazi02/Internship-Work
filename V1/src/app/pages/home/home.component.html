@@ -1,81 +1,13 @@
-<!---banner-area-->
-<div class="banner-area">
-  <div class="container">
-      <div class="banner-main">
-          <div class="category-area">
 
-          </div>
-          <!---banner-data-->
-          <div class="banner-data">
-            <!--banner-slider-->
-            <div class="banner-slide-area carousel">
-              <swiper
-              [slidesPerView]="1"
-              [spaceBetween]="20"
-              [autoplay]="true"
-              [loop]="true"
-              [pagination]="{
-                  clickable:true
-              }"
-              class="mySwiper"
-          >
-              <ng-template swiperSlide *ngFor="let product of productsData">
-                      <!---banner-start-->
-                      <div class="banner">
-                        <img [src]="product?.image" alt="">
-
-
-
-                      </div><!---banner-end-->
-                      <!-- <img src=".././../../assets/images/products/womenOffer/banner123_4.webp" alt=""> -->
-              </ng-template>
-
-          </swiper>
-            </div><!---banner-slide-area-end-->
-            <!---banner-data-bottom-->
-            <div class="banner-data-bottom">
-              <div class="sub-banner">
-                  <a href="#"><img src="./assets/images/banner/04.jpg" alt=""></a>
-              </div>
-              <div class="sub-banner">
-                  <a href="#"><img src="./assets/images/banner/05.jpg" alt=""></a>
-              </div>
-            </div><!---banner-bottom-end-->
-
-          </div><!---DATA-END-->
-      </div>
-  </div>
-</div>
-
-
-
-
-<!---section-3-->
-<div class="section-3">
-    <div class="container">
-        <div class="section3-main">
-            <h4>Only <span>$45</span> per Kilogram</h4>
-            <h2>Fresh Blueberries</h2>
-            <button><i class="fa-solid fa-basket-shopping"></i>Show Now</button>
-        </div>
-    </div>
-</div>
-
-<!---section-4-->
-
-
-<!---section5-->
 
 <!---section-6-->
 <div class="section-6">
     <div class="container">
-        <div class="title-area">
-            <h1>Shop By Categories</h1>
-        </div>
+
         <!---section6-main-->
         <div class="section6-main carousel">
             <swiper
-                [slidesPerView]="2"
+                [slidesPerView]="1"
                 [spaceBetween]="16"
                 [autoplay]="true"
                 [loop]="true"
@@ -99,7 +31,7 @@
                 }"
                 class="mySwiper"
             >
-                <ng-template swiperSlide *ngFor="let data of categoryData">
+                <ng-template swiperSlide *ngFor="let data of productsData">
                      <!---category-card-->
                         <div class="category-card" [id]="data?._id">
                             <div class="category-image">
@@ -122,6 +54,6 @@
         </div> -->
     </div>
 </div>
-<!---section - 7-->
+
 
 
